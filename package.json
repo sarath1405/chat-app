@@ -1,0 +1,22 @@
+{
+  "name": "chat-page",
+  "version": "1.0.0",
+  "description": "chatting webpage",
+  "main": "index.js",
+  "scripts": {
+    "start": "node run index.js",
+    "server": "nodemon run index.js"
+  },
+  "author": "sarath",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.4.0",
+    "cors": "^2.8.5",
+    "env": "^0.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.0"
+  }
+}
